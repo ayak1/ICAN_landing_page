@@ -39,15 +39,13 @@ export const VideoSection = () => {
                     <Col xl={6} className=" services d-flex flex-column g-5">
                         {
                             services.map((service, index) => (
-                                // <a href="#">
-                                <div className="service d-flex justify-content-start align-items-baseline mb-4">
+                                <div key={index} className="service d-flex justify-content-start align-items-baseline mb-4">
                                     <div className="me-2 mt-2">
                                         <img src={checkIcon}/>
                                     </div>
                                     <p className="tajawal-bold ">{service}</p>
                                 </div>
                                 
-                                // </a>
                             ))
                         }
                     </Col>

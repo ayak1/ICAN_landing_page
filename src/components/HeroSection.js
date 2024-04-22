@@ -12,8 +12,7 @@ export const HeroSection = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(250 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  // const toRotate = [ "Software Services", "Web design","Web Development", "Design & Graphics","Marketing" ];
-  const toRotate = t("hero.text.rotate", { returnObjects: true }).map(item => item); // Extracting text from translations
+  const toRotate = t("hero.text.rotate", { returnObjects: true }).map(item => item); 
 
   const period = 2000;
   useEffect(() => {

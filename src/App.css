@@ -162,9 +162,7 @@ nav.navbar.scrolled {
 /* ________________________________ */
 /* HERO SECTION */
 .hero{
-  /* margin-top: 132px; */
   text-align: center;
-
 }
 .hero_h1{
   font-size: 3.75rem;
@@ -301,7 +299,6 @@ nav.navbar.scrolled {
 }
 .about_us .section_content .content{
   position: relative;
-  /* z-index: 4; */
 }
 .about_us .section_content .content .text{
   display: flex;
@@ -368,9 +365,7 @@ nav.navbar.scrolled {
 
 
 /* SOFTWARE SERVICES */
-.software_services{
-  /* background-color: var(--color_Dark); */
-}
+
 .software_services .service_title {
   position: relative;
   overflow: hidden;
@@ -510,9 +505,7 @@ nav.navbar.scrolled {
 }
 
 /* JOIN US */
-.join_us{
-  /* height: 800px; */
-}
+
 .join_us .row  img{
   width: 100%;
   height: 650px;
@@ -539,8 +532,6 @@ nav.navbar.scrolled {
 
 .footer{
   width: 100%;
-  /* background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(11,11,11,1) 50%); */
   background-color: #181818;
 }
 
@@ -621,7 +612,6 @@ nav.navbar.scrolled {
 /* SLIDER CSS */
 .swiper_container {
   margin-top: 60px;
-  /* height: 52rem; */
   padding: 2rem 0;
   position: relative;
 }
@@ -649,11 +639,9 @@ nav.navbar.scrolled {
 
 .slider-controller {
   position: relative;
-  /* bottom: 3rem; */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  /* top: 6rem; */
   margin-top: 20px;
 }
 

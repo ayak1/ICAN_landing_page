@@ -10,7 +10,7 @@ export const ServiceCard = ({ title, description, imgUrl, icon }) => {
             <h4 className="px-5">{title}</h4>
             <div className="service_description">
                 <div className="content">
-                    <img src={imgUrl} />
+                    <img src={imgUrl} alt={description} />
                     <div className="text">
                         <p className="tajawal-bold">{description}</p>
                     </div>

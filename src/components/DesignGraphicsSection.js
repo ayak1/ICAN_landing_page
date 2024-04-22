@@ -8,7 +8,7 @@ export const DesignGraphicsSection = () => {
     const services = t('design_graphics_section.services', { returnObjects: true });
     const servicesEl = document.body.querySelectorAll('.design_graphics .section_content .services .service');
     const servicesWrapper = document.querySelector('.design_graphics .section_content .services');
-    // Set the dir attribute for each p element
+    // Set the dir attribute for each service element
     if(servicesWrapper){
         servicesWrapper.setAttribute('dir', i18n.dir());
     }
@@ -26,8 +26,7 @@ export const DesignGraphicsSection = () => {
                     <Row>
 
                     {services.map((service, index) => (
-                        // <a href="#">
-                        <Col xl={6} xs={12}>
+                        <Col key={index}  xl={6} xs={12}>
                         <div className="service d-flex justify-content-start align-items-baseline">
                             <div className="mt-2">
                                 <img src={checkIcon}/>
@@ -35,7 +34,6 @@ export const DesignGraphicsSection = () => {
                             <p className="tajawal-bold">{service}</p>
                         </div>
                         </Col>
-                        // </a>
                     ))
                 }
                 </Row>

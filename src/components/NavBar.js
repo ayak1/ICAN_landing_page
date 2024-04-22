@@ -34,7 +34,7 @@ export const NavBar = ({ toggleTheme,theme }) => {
       <Navbar expand="xl" className={scrolled ? "scrolled ak_shadow" : ""}  fixed="top" >
       <Container>
         <Navbar.Brand href="#">
-          <img src={logo} />
+          <img src={logo} alt="logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -46,18 +46,17 @@ export const NavBar = ({ toggleTheme,theme }) => {
             <Nav.Link href="#video_motion" className={activeSection === 'video_motion' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveSection('video_motion')}>{t("navbar.Video_Editing")}</Nav.Link>
             <Nav.Link href="#marketing" className={activeSection === 'marketing' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveSection('marketing')}>{t("navbar.Marketing")}</Nav.Link>
             <Nav.Link href="#join_us" className={activeSection === 'join_us' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveSection('join_us')}>{t("navbar.join_us")}</Nav.Link>
-            {/* <Nav.Link href="#TechnicalSupport" className={activeSection === 'TechnicalSupport' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveSection('TechnicalSupport')}>{t("navbar.TechnicalSupport")}</Nav.Link> */}
           </Nav>
           <div className="theme_btn">
             <button onClick={toggleTheme} className="border-0" type="button" >
             {
             theme === 'light' ?
                 <div className="moon">
-                  <img src={moon} alt="moon"/>
+                  <img src={moon} alt="moon, turn theme to dark"/>
                 </div>
                 : 
                 <div className="sun">
-                  <img src={sun} alt="sun"/>
+                  <img src={sun} alt="sun, turn theme to light"/>
                 </div>
               }
              

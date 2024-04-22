@@ -6,7 +6,6 @@ export const FormJoinUs = () => {
     const { t ,i18n } = useTranslation();
     const formContainer = document.querySelector('.join_us .section_content form');
     if(formContainer){
-        console.log("hhhhhhhhh")
         formContainer.setAttribute('dir', i18n.dir());
     }
     return (
