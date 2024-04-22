@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ICAN_landing_page/static/css/main.48bafe7d.css",
-    "main.js": "/ICAN_landing_page/static/js/main.869f486b.js",
+    "main.js": "/ICAN_landing_page/static/js/main.d1802e63.js",
     "static/js/453.875d4e87.chunk.js": "/ICAN_landing_page/static/js/453.875d4e87.chunk.js",
     "static/media/slide4.png": "/ICAN_landing_page/static/media/slide4.5e2ecb6461a567781d23.png",
     "static/media/videoSection.jpg": "/ICAN_landing_page/static/media/videoSection.297b3b83b73415c01f60.jpg",
@@ -33,11 +33,11 @@
     "static/media/arrow-left-wide-line.svg": "/ICAN_landing_page/static/media/arrow-left-wide-line.a182a1ee945c955fb22ce553a30a01e5.svg",
     "static/media/arrow-right-wide-fill.svg": "/ICAN_landing_page/static/media/arrow-right-wide-fill.a5c0fddd9411dbe72a38454e4b2e6d95.svg",
     "main.48bafe7d.css.map": "/ICAN_landing_page/static/css/main.48bafe7d.css.map",
-    "main.869f486b.js.map": "/ICAN_landing_page/static/js/main.869f486b.js.map",
+    "main.d1802e63.js.map": "/ICAN_landing_page/static/js/main.d1802e63.js.map",
     "453.875d4e87.chunk.js.map": "/ICAN_landing_page/static/js/453.875d4e87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48bafe7d.css",
-    "static/js/main.869f486b.js"
+    "static/js/main.d1802e63.js"
   ]
 }
