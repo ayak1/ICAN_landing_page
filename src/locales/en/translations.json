@@ -74,5 +74,15 @@
           { "text": "Pay-Per-Click (PPC) Advertising", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" }
         ],
         "center": "Digital Marketing Solutions for Your Business Growth"
-     } 
+     },
+     "form": {
+        "email":"Email",
+        "password":"Password",
+        "sex":"Sex",
+        "status":"Military Status",
+        "textarea":"talk about your self",
+        "female":"Female",
+        "male":"Male",
+        "submit":"Submit"
+    }
 }

@@ -422,6 +422,8 @@ nav.navbar.scrolled {
 .software_services .service_description .content .text p{
   font-size: 1rem;
   color: var(--color_Light);
+  padding: 10px;
+
 }
 .software_services .service_description .content img{
   width: 100%;
@@ -528,7 +530,6 @@ nav.navbar.scrolled {
 }
 .join_us form .form_group .form-label{
   font-size: 1.5rem;
-  text-align: left;
 }
 
 .join_us textarea{
@@ -570,31 +571,52 @@ nav.navbar.scrolled {
 .footer .social_icons a:hover::before {
   transform: scale(1);
 }
-.copyrigth{
-  background-color: #E0E3E7;
-}
 .copyrigth p{
+  background-color: #161616;
   letter-spacing: 2px;
-  font-size: 1.2rem;
+  color: var(--color_Light);
 }
-@media(max-width:1200px){
-  /* .footer .social_icons{
+
+@media(max-width:800px){
+  .footer .social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+
+  }
+  .footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+  .footer_logo img svg{
+    width: 100%;
+    height: 100%;
+  }
+  .footer .social_icons{
     gap: 4px;
   }
   .footer .social_icons a{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-color: var(--color_Light);
   }
   .footer .social_icons a img{
-    width: 22px;
-    height: 22px;
+    width: 12px;
+    height: 12px;
   }
   .footer .social_icons a::before {
     content: "";
-    width: 26px;
-    height: 26px;
-  } */
+    width: 16px;
+    height: 16px;
+  }
+  .copyrigth p{
+    letter-spacing: 2px;
+    padding: 30px;
+  }
 }
 /* SLIDER CSS */
 .swiper_container {

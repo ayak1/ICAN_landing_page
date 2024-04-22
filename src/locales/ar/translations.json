@@ -75,6 +75,16 @@
           { "text": "الإعلان بالدفع مقابل النقر (PPC)", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" }
         ],
         "center":"حلول التسويق الرقمي لنمو أعمالك"
-      }
+      },
+    "form":{
+        "email":"البريد الالكتروني",
+        "password":"كلمة السر",
+        "sex":"الجنس",
+        "status":"الحالة",
+        "textarea":"تكلم عن نفسك",
+        "female":"انثى",
+        "male":"ذكر",
+        "submit":"ارسل"
+    }
         
 }
