@@ -49,7 +49,7 @@ export const HeroSection = () => {
       }
     }
     return(
-        <section className="hero" id="home">
+        <section className="hero d-flex justify-content-center align-items-center" id="home">
           <Container>
                 <Row className="align-items-center g-md-4">
                     <Col xs={12} md={12} xl={6} className="left_content">
@@ -60,7 +60,6 @@ export const HeroSection = () => {
                     <Col xs={12} md={12} xl={6} className="right_content d-flex align-items-start justify-content-center">
                         <h1>{t("hero.text.main")} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate={JSON.stringify(toRotate)}><span className="wrap">{text}</span></span></h1>
                     </Col>
-                    <div className="line"></div>
                 </Row>
           </Container>
         </section>

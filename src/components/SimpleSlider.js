@@ -68,12 +68,8 @@ export default function SimpleSlider() {
 
       <div className="slider-controller">
         <div className="swiper-button-prev slider-arrow " >
-          {/* <ion-icon name="arrow-back-outline"></ion-icon> */}
-          {/* <img src={arrow_prev}/> */}
         </div>
         <div className="swiper-button-next slider-arrow">
-          {/* <ion-icon name="arrow-forward-outline"></ion-icon> */}
-          {/* <img src={arrow_next}/> */}
         </div>
         <div className="swiper-pagination"></div>
       </div>

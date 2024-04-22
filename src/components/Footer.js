@@ -8,16 +8,20 @@ export const Footer = () => {
     return(
         <footer className="footer mt-5" id="footer">
             <Container>
-            <Row className="p-5 align-items-center">
-                <Col xl={6} className="">
+            <Row className="p-5 align-items-center ">
+                <Col xl={6} md={6} className="">
                     <img src={logo} alt="logo"/>
                 </Col>
-                <Col xl={6}>
+                <Col xl={6} md={6}>
                     <SocialIcons/>
                 </Col>
-
             </Row>
             </Container>
+            <Row className="copyrigth">
+                    <p className=" text-center m-auto p-2 tajawal-bold">
+                        © 2024 Your Website. Coded & Designed by Eng.Aya Killiah.
+                    </p>
+            </Row>
         </footer>
     )
 }

@@ -31,7 +31,7 @@ export const ServicesCards = () => {
         },
       ];
       return(
-        <Row>
+        <Row className="d-flex g-3 align-items-center justify-content-center"  >
             {
             services.map((service, index) => {
                 return (

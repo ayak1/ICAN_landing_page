@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap"
 
 export const ServiceCard = ({ title, description, imgUrl, icon }) => {
     return (
-      <Col className="service_card">
+      <Col xl={4} sm={12} className="service_card m-mb-sm-3">
         <div className="service_title ak_shadow d-flex flex-column justify-content-center gap-2">
             <div className="icon">
                 <img src={icon}/>
