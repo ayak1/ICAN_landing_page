@@ -283,6 +283,7 @@ nav.navbar.scrolled {
 .backgroundEyeLeft img {
   animation: updown 3s linear infinite;
 }
+
 @keyframes updown {
     0% {
         transform: translateX(-20px);
@@ -327,7 +328,7 @@ nav.navbar.scrolled {
   background-color: var(--main_color);
   border-radius: 40px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .about_us .section_content .content .text{
     padding: 14px 16px;
   }
