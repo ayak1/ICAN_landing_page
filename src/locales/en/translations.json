@@ -1,0 +1,77 @@
+{
+    "navbar":{
+        "Home": "Home",
+        "About_us": "About Us",
+        "Software_services":"Software Services",
+        "Design_Graphics":"Design & Graphics",
+        "Video_Editing":"Video Editing & Motion Graphics",
+        "Marketing":"Marketing",
+        "join_us":"Join Us"
+    },
+    "section_title":{
+        "about":"ABOUT US",
+        "Software_services":" SOFTWARE SERVICES",
+        "Design_Graphics": "DESIGN & GRAPHICS",
+        "Video_Editing": "VIDEO EDITING & MOTION GRAPHICS",
+        "Marketing": "MARKETING",
+        "join_us":"JOIN US"
+    },
+    "hero": {
+        "logo": "Technical Solutions",
+        "text": {
+          "main": "Solutions for Your Business Growth",
+          "rotate": ["Web design", "Web Development", "Software Services", "Design & Graphics", "Marketing"]
+        }
+      },
+    "about_section": {
+        "about": "For consulting, software and technical solutions, and everything related to information and communications technology.",
+        "manager": "Managed by Engineer: Basil Tanbakji"
+      },
+    "software_services": {
+        "service1": {
+            "title": "Dynamic WEB Solutions",
+            "description": "Explore our range of innovative and efficient software solutions designed specifically for Windows operating systems. From productivity tools to multimedia applications, we've got you covered."
+        },
+        "service2": {
+            "title": "Powerful Windows Applications",
+            "description": "Explore our range of innovative and efficient software solutions designed specifically for Windows operating systems. From productivity tools to multimedia applications, we've got you covered."
+        },
+        "service3": {
+            "title": "Mobile Solutions Android & iOS",
+            "description": "Explore our range of innovative and efficient software solutions designed specifically for Windows operating systems. From productivity tools to multimedia applications, we've got you covered."
+      }
+     },
+     "design_graphics_section":{
+        "services":[
+          "Creation and design of visual identities, logos, and business cards.",
+          "Design of official documents and electronic invoices.",
+          "Creation of posters for social media platforms.",
+          "Design of professional brochures and resumes.",
+          "Preparation of distinctive and creative presentations.",
+          "Design and execution of creative and effective advertisements.",
+          "Design of wedding invitation cards.",
+          "Formatting and designing book covers and restaurant menus.",
+          "Development of distinctive and user-friendly UI/UX interfaces."
+      ]
+     },
+     "video_section": {
+         "services": [
+          "Creation of digital promotional and advertising videos.",
+          "Production of animated explainer videos.",
+          "Development of cinematic videography.",
+          "Creation of educational and cultural videos."
+         ]
+     },
+     "marketing_section": {
+      "services": [
+          { "text": "Email Marketing Solutions", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" },
+          { "text": "Content Creation & Publishing", "text_color": "var(--main_color)", "bg_color": "var(--color_Light)" },
+          { "text": "Social Media Management", "text_color": "var(--main_color)", "bg_color": "var(--black_color)" },
+          { "text": "Marketing Automation Solutions", "text_color": "var(--black_color)", "bg_color": "var(--color_Light)" },
+          { "text": "Search Engine Optimization (SEO)", "text_color": "var(--black_color)", "bg_color": "var(--color_Light)" },
+          { "text": "Analytics & Performance Tracking", "text_color": "var(--main_color)", "bg_color": "var(--black_color)" },
+          { "text": "E-commerce Marketing Strategies", "text_color": "var(--main_color)", "bg_color": "var(--color_Light)" },
+          { "text": "Pay-Per-Click (PPC) Advertising", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" }
+        ]
+     } 
+}
