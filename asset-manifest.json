@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/ICAN_landing_page/static/css/main.3a2eb8a9.css",
+    "main.js": "/ICAN_landing_page/static/js/main.8d39c794.js",
+    "static/js/453.875d4e87.chunk.js": "/ICAN_landing_page/static/js/453.875d4e87.chunk.js",
+    "static/media/slide4.png": "/ICAN_landing_page/static/media/slide4.5e2ecb6461a567781d23.png",
+    "static/media/videoSection.jpg": "/ICAN_landing_page/static/media/videoSection.297b3b83b73415c01f60.jpg",
+    "static/media/slide2.jpg": "/ICAN_landing_page/static/media/slide2.ac3ac20b60d041906996.jpg",
+    "static/media/slide3.jpg": "/ICAN_landing_page/static/media/slide3.34c599cb1d4ddc3cfdf8.jpg",
+    "static/media/slide1.jpg": "/ICAN_landing_page/static/media/slide1.b9927f0b615f6c868a2e.jpg",
+    "static/media/undraw_Data_points_re_vkpq.png": "/ICAN_landing_page/static/media/undraw_Data_points_re_vkpq.e8489b0db8d41e66936f.png",
+    "static/media/undraw_Developer_activity_re_39tg.png": "/ICAN_landing_page/static/media/undraw_Developer_activity_re_39tg.64b86efcc1f0d6f913a9.png",
+    "static/media/undraw_Web_developer_re_h7ie.png": "/ICAN_landing_page/static/media/undraw_Web_developer_re_h7ie.fd1c4b27f764c90e18d2.png",
+    "static/media/undraw_Completed_m9ci.png": "/ICAN_landing_page/static/media/undraw_Completed_m9ci.561a24c68be9fc3c7b83.png",
+    "static/media/slide5.webp": "/ICAN_landing_page/static/media/slide5.3c71bb0f756bf2ee25dc.webp",
+    "static/media/logo.svg": "/ICAN_landing_page/static/media/logo.d97b13871ed90c432da9d2227e4b3472.svg",
+    "static/media/backgroundEyeRight.svg": "/ICAN_landing_page/static/media/backgroundEyeRight.405ce5d676bc4c2c1ba8ca7e1f37758f.svg",
+    "static/media/web_service.svg": "/ICAN_landing_page/static/media/web_service.7555bd09b9d87ec9428cea4723405bdb.svg",
+    "static/media/backgroundEyeLeft.svg": "/ICAN_landing_page/static/media/backgroundEyeLeft.ab605006046ac638a9ac66f823d407ce.svg",
+    "static/media/windows_apps_service.svg": "/ICAN_landing_page/static/media/windows_apps_service.d1bfdd65e4e3fb3939e8e6b7b37bbc88.svg",
+    "static/media/telegram.svg": "/ICAN_landing_page/static/media/telegram.61bd930158c0859923fdccde43b25f80.svg",
+    "static/media/youtube.svg": "/ICAN_landing_page/static/media/youtube.c0b6842d8e8efa05d89e53cdca7fbe6d.svg",
+    "static/media/mobile_apps_service.svg": "/ICAN_landing_page/static/media/mobile_apps_service.30f1938cb42921e246111cd6e68d1eff.svg",
+    "static/media/whatsapp.svg": "/ICAN_landing_page/static/media/whatsapp.42200a22f8711c4d22ba6b95cbd15b1c.svg",
+    "static/media/checkIcon.svg": "/ICAN_landing_page/static/media/checkIcon.35db81ed412dbbb0ad45d1588f35c627.svg",
+    "index.html": "/ICAN_landing_page/index.html",
+    "static/media/linkedIn.svg": "/ICAN_landing_page/static/media/linkedIn.ec416e3d1ae9942b8dd008f55ea7bdf9.svg",
+    "static/media/insta.svg": "/ICAN_landing_page/static/media/insta.b64208c2bf2323f82936ad8228771f82.svg",
+    "static/media/facebook.svg": "/ICAN_landing_page/static/media/facebook.e11bded1f41400b73c64f6f94c5d8cca.svg",
+    "static/media/sun-line.svg": "/ICAN_landing_page/static/media/sun-line.74f0348c969aba04c2efa03d05883c4e.svg",
+    "static/media/email.svg": "/ICAN_landing_page/static/media/email.613cb432fe692c1d356a2930c2472fa4.svg",
+    "static/media/moon-line.svg": "/ICAN_landing_page/static/media/moon-line.442183e7eb8be789f8b5ff070b43792f.svg",
+    "static/media/arrow-left-wide-line.svg": "/ICAN_landing_page/static/media/arrow-left-wide-line.a182a1ee945c955fb22ce553a30a01e5.svg",
+    "static/media/arrow-right-wide-fill.svg": "/ICAN_landing_page/static/media/arrow-right-wide-fill.a5c0fddd9411dbe72a38454e4b2e6d95.svg",
+    "main.3a2eb8a9.css.map": "/ICAN_landing_page/static/css/main.3a2eb8a9.css.map",
+    "main.8d39c794.js.map": "/ICAN_landing_page/static/js/main.8d39c794.js.map",
+    "453.875d4e87.chunk.js.map": "/ICAN_landing_page/static/js/453.875d4e87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a2eb8a9.css",
+    "static/js/main.8d39c794.js"
+  ]
+}
