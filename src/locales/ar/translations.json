@@ -73,7 +73,8 @@
           { "text": "تتبع التحليلات والأداء", "text_color": "var(--main_color)", "bg_color": "var(--black_color)" },
           { "text": "استراتيجيات التسويق للتجارة الإلكترونية", "text_color": "var(--main_color)", "bg_color": "var(--color_Light)" },
           { "text": "الإعلان بالدفع مقابل النقر (PPC)", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" }
-        ]
+        ],
+        "center":"حلول التسويق الرقمي لنمو أعمالك"
       }
         
 }

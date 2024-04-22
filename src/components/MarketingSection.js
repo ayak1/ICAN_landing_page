@@ -20,7 +20,7 @@ export const MarketingSection = () => {
                         ))}
                     </Row>
                     <Row>
-                        <p className="center_text tajawal-bold">Digital Marketing Solutions for Your Business Growth</p>
+                        <p className="center_text tajawal-bold">{t("marketing_section.center")}</p>
                     </Row>
                     <Row className="d-flex justify-content-center">
                         {marketing_services.slice(4, 8).map((service, index) => (

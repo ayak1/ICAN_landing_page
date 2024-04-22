@@ -72,6 +72,7 @@
           { "text": "Analytics & Performance Tracking", "text_color": "var(--main_color)", "bg_color": "var(--black_color)" },
           { "text": "E-commerce Marketing Strategies", "text_color": "var(--main_color)", "bg_color": "var(--color_Light)" },
           { "text": "Pay-Per-Click (PPC) Advertising", "text_color": "var(--color_Light)", "bg_color": "var(--main_color)" }
-        ]
+        ],
+        "center": "Digital Marketing Solutions for Your Business Growth"
      } 
 }
