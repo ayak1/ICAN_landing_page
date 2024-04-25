@@ -366,15 +366,30 @@ nav.navbar.scrolled {
 
 
 /* SOFTWARE SERVICES */
-
+.service_card{
+  position: relative;
+  z-index: 1;
+}
 .software_services .service_title {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-top:8px solid var(--main_color);
   width: 100%;
   height: 173px;
   text-align: center;
   background-color: var(--color_Light);
+}
+.App.dark .software_services .service_title:before{
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 100%;
+  height: 100%;
+  border: 4px solid var(--main_color);
+  box-shadow: 2px 2px 14px #8e8e8e;
+  background-color: var(--color_Light);
+  z-index: -1;
 }
 .App.dark .software_services .service_title {
   color: var(--black_color);
@@ -493,7 +508,9 @@ nav.navbar.scrolled {
 }
 .marketing .section_content .marketing_card{
   height: 220px;
+  cursor: pointer;
 }
+
 .marketing .section_content .center_text{
   font-size: 2.5rem;
   text-align: center;
@@ -502,7 +519,6 @@ nav.navbar.scrolled {
 .marketing .section_content .marketing_card .marketing-text {
   font-size: 1.2rem;
   text-align: center;
-
 }
 
 /* JOIN US */
@@ -618,14 +634,14 @@ nav.navbar.scrolled {
 }
 
 .swiper-slide {
-  width: 37rem !important;
-  height: 42rem;
+  width: calc(100% / 2) !important;
+  height: 70vh;
   position: relative;
 }
 
 .swiper-slide img {
-  width: 37rem;
-  height: 42rem;
+  width: 100%;
+  height: 70vh;
   border-radius: 2rem;
   object-fit: cover;
   filter: brightness(50%);  
@@ -661,23 +677,37 @@ nav.navbar.scrolled {
 }
 .slider-controller .slider-arrow.swiper-button-next{
   position: absolute;
-  right: 5%
+  right: 10%
 }
 .slider-controller .slider-arrow.swiper-button-next:after {
   content: url("./assets/imgs/arrow-right-wide-fill.svg") !important;
   position: absolute;
-  right: 5%
+  right: 10%
 }
 .slider-controller .slider-arrow.swiper-button-prev{
   position: absolute;
-  left: 5%
+  left: 10%
 }
 .slider-controller .slider-arrow.swiper-button-prev:after {
   content: url("./assets/imgs/arrow-left-wide-line.svg") !important;
   position: absolute;
+  left: 10%
+}
+@media (max-width: 768px) {
+
+.slider-controller .slider-arrow.swiper-button-next{
+  right: 5%
+}
+.slider-controller .slider-arrow.swiper-button-next:after {
+  right: 5%
+}
+.slider-controller .slider-arrow.swiper-button-prev{
   left: 5%
 }
-
+.slider-controller .slider-arrow.swiper-button-prev:after {
+  left: 5%
+}
+}
 .slider-controller .swiper-pagination {
   position: relative !important;
   bottom: 50% !important;
